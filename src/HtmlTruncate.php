@@ -33,9 +33,6 @@ class HtmlTruncate
 
 
         foreach ($nodes as $node) {
-            if (!$node instanceof \DOMText) {
-                continue;
-            }
 
             $nodeLength = mb_strlen(trim($node->nodeValue), 'UTF-8');
 
