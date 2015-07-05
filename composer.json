@@ -1,0 +1,36 @@
+{
+    "name": "HtmlTruncate",
+    "type": "library",
+    "description": "HtmlTruncate allow to truncate html according to its text content without breaking any html tag",
+    "keyword": ["php", "html", "truncate"],
+    "homepage": "http://github.com/maximecolin",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Maxime COLIN",
+            "email": "conact@maximecolin.fr",
+            "homepage": "http://www.maximecolin.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HtmlTruncate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HtmlTruncate\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
